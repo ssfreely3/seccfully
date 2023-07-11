@@ -1,0 +1,3 @@
+deploy:
+  - okteto build -t okteto.dev/dnfetr:latest
+  - kubectl apply -f k8s
